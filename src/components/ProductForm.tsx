@@ -63,7 +63,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ product, onNavigate }) => {
       )}
       <div>
         <label htmlFor="title" className="block text-sm font-medium text-gray-700">
-          Title
+          Nombre
         </label>
         <input
           type="text"
@@ -77,7 +77,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ product, onNavigate }) => {
       </div>
       <div>
         <label htmlFor="price" className="block text-sm font-medium text-gray-700">
-          Price
+          Precio
         </label>
         <input
           type="number"
@@ -93,7 +93,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ product, onNavigate }) => {
       </div>
       <div>
         <label htmlFor="description" className="block text-sm font-medium text-gray-700">
-          Description
+          Descripción
         </label>
         <textarea
           name="description"
@@ -107,7 +107,7 @@ const ProductForm: React.FC<ProductFormProps> = ({ product, onNavigate }) => {
       </div>
       <div>
         <label htmlFor="categoryId" className="block text-sm font-medium text-gray-700">
-          Category ID
+          ID Categoria
         </label>
         <input
           type="number"
